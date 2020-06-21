@@ -1,1 +1,6 @@
 *.ttf
+.DS_Store
+
+# Icon
+Icon?
+! */*icon*
