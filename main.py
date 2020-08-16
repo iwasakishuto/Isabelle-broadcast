@@ -25,7 +25,7 @@ def get_text():
 {get_ampm_jp(dt)}%I時%M分です"""
     return dt.strftime(text)
 
-def create_text_img(ttfontname="font/07やさしさゴシックボールド.ttf", fontsize=60):
+def create_text_img(text=get_text(), ttfontname="font/07やさしさゴシックボールド.ttf", fontsize=60):
     backgroundRGB = (255, 247, 225)
     textRGB       = (114, 109, 88)
 
@@ -37,7 +37,7 @@ def create_text_img(ttfontname="font/07やさしさゴシックボール�
     text_img = Image.new(mode="RGB", size=canvasSize, color=backgroundRGB)
     draw = ImageDraw.Draw(im=text_img)
     font = ImageFont.truetype(font=ttfontname, size=fontsize)
-    draw.text(xy=(0, 0), text=get_text(), fill=textRGB, font=font)
+    draw.text(xy=(0, 0), text=text, fill=textRGB, font=font)
 
     base_img = Image.open(fp="image/background.png")
     base_img.paste(im=text_img, box=textBox[:2])
