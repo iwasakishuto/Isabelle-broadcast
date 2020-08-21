@@ -6,3 +6,6 @@ __pycache__
 # Icon
 Icon?
 ! */*icon*
+
+# PyPI
+*.egg-info
