@@ -28,7 +28,7 @@ def setup_package():
         install_requires=INSTALL_REQUIRES,
         entry_points = {
             "console_scripts": [
-                "isacast=cli:isacast",
+                "isacast=isacast_cli:isacast",
         ],
     },
     )
