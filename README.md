@@ -1,7 +1,7 @@
 # Isabelle-broadcast
 
-![Isabelle-broadcast](image/Isabelle-broadcast.example.png)
-[![GitHub version](https://badge.fury.io/gh/iwasakishuto%2FTranslation-Gummy.svg)](https://github.com/iwasakishuto/Isabelle-broadcast)
+![Isabelle-broadcast](./image/Isabelle-broadcast.example.png)
+[![GitHub version](https://badge.fury.io/gh/iwasakishuto%2FIsabelle-broadcast.svg)](https://github.com/iwasakishuto/Isabelle-broadcast)
 
 **Make shell life fun by Isabelle's broadcasting.**
 
